@@ -24,7 +24,7 @@
         Hello, world from Contact
     </h1>
 
-
+    <a href="{{ route('homepage') }}">Home</a>
 </body>
 
 </html>

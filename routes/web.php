@@ -39,4 +39,4 @@ Route::get('/', function () {
     ];
 
     return view('homepage', compact('name', 'surname', 'points', 'links'));
-});
+})->name('homepage');
